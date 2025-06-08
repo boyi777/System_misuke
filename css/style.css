@@ -1,0 +1,20 @@
+/* 確保 html 和 body 填滿視窗 */
+html, body {
+    height: 100%; /* 保持高度為100% */
+    margin: 0; /* 移除默認 margin */
+    display: flex; /* 使用 Flexbox */
+    flex-direction: column; /* 垂直布局 */
+}
+
+/* 主內容區域自動填滿 */
+main {
+    flex: 1; /* 主內容區域占用剩餘空間 */
+}
+
+/* footer 固定在頁面底部 */
+footer {
+    background-color: #343a40; /* 深灰色背景 */
+    color: white; /* 白色文字 */
+    text-align: center; /* 文字置中 */
+    padding: 10px 0; /* 上下內距 */
+}
