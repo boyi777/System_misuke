@@ -13,6 +13,6 @@
         <a href="index.php" class="text-decoration-none text-light">
             <h1 class="h4">美助紡織股份有限公司</h1>
         </a>
-        <span class="ms-auto">身分: 主管</span>
+        <span class="ms-auto">身分: 一般員工</span>
     </div>
 </header>

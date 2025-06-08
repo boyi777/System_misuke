@@ -40,5 +40,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 </main>
+<div class="floating-login-info">
+    <strong>測試帳密：</strong><br>
+    員工帳號 <code>user</code><br>
+    主管帳號 <code>admin</code><br>
+    密碼 <code>123456</code>
+</div>
+
 
 <?php include 'templates/footer.php'; ?>

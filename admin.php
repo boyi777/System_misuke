@@ -7,7 +7,7 @@ include 'templates/header.php';
     <h1 class="text-center mb-4">歡迎使用公司管理系統</h1>
 
     <div class="text-center mb-5">
-        <a href="company_intro.html" class="btn btn-outline-primary">查看公司介紹</a>
+        <a href="/modules/company_intro.html" class="btn btn-outline-primary">查看公司介紹</a>
     </div>
 
     <div class="row g-4">

@@ -18,3 +18,26 @@ footer {
     text-align: center; /* 文字置中 */
     padding: 10px 0; /* 上下內距 */
 }
+.floating-login-info {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px 0 0 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #333;
+    z-index: 999;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    white-space: nowrap;
+    
+}
+@media (max-width: 768px) {
+    .floating-login-info {
+        display: none;
+    }
+}
+
